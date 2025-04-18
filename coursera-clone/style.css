@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 25px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0056d2;
+  }
+  
+  .nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .search-container input {
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 250px;
+  }
+  
+  .signin-btn {
+    padding: 8px 16px;
+    background-color: #0056d2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f5f5f5;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin: 15px 0;
+    color: #555;
+  }
+  
+  .hero-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0056d2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .courses {
+    padding: 40px 20px;
+  }
+  
+  .courses h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .course-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .course-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .course-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .course-card h3 {
+    margin: 15px 0 10px;
+    color: #222;
+  }
+  
+  .course-card p {
+    color: #666;
+  }
+  .filters {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .filters button {
+    margin: 0 10px;
+    padding: 8px 16px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .filters button:hover {
+    background-color: #0056d2;
+    color: white;
+  }
+  
+  

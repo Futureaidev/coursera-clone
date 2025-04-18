@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coursera Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<section class="hero">
+    <h1>Learn without limits</h1>
+    <p>Start, switch, or advance your career with courses, certificates, and degrees from world-class universities.</p>
+    <button class="hero-btn">Join for Free</button>
+  </section>
+  
+  <section class="courses">
+    <h2>Popular Courses</h2>
+    <div class="filters">
+        <button onclick="filterCourses('all')">All</button>
+        <button onclick="filterCourses('web')">Web Development</button>
+        <button onclick="filterCourses('data')">Data Science</button>
+        <button onclick="filterCourses('marketing')">Marketing</button>
+      </div>
+      
+    <div class="course-list">
+      <div class="course-card">
+        <img src="https://via.placeholder.com/300x150" alt="Course 1" />
+        <h3>Web Development</h3>
+        <p>HTML, CSS, JavaScript & more.</p>
+      </div>
+      <div class="course-card web">
+        <!-- Web course -->
+      </div>
+      <div class="course-card data">
+        <!-- Data Science course -->
+      </div>
+      <div class="course-card marketing">
+        <!-- Marketing course -->
+      </div>
+      
+      <div class="course-card">
+        <img src="https://via.placeholder.com/300x150" alt="Course 2" />
+        <h3>Data Science</h3>
+        <p>Learn Python, ML, and Data Analysis.</p>
+      </div>
+      <div class="course-card">
+        <img src="https://via.placeholder.com/300x150" alt="Course 3" />
+        <h3>Digital Marketing</h3>
+        <p>SEO, Social Media & Strategy.</p>
+      </div>
+    </div>
+  </section>
+  
+<body>
+    <header class="navbar">
+        <div class="logo">Coursera</div>
+        <nav class="nav-links">
+          <a href="#">Explore</a>
+          <a href="#">For Enterprise</a>
+          <a href="#">For Students</a>
+        </nav>
+        <div class="search-container">
+          <input type="text" placeholder="What do you want to learn?" />
+        </div>
+        <button class="signin-btn">Sign In</button>
+      </header>
+         
+  <!-- UI will go here -->
+  <script src="script.js"></script>
+</body>
+</html>
